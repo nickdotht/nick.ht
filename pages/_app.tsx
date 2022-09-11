@@ -5,8 +5,12 @@ import { extendTheme } from '@chakra-ui/react'
 
 export const theme = extendTheme({
   fonts: {
-    body: "MontserratVariable, sans-serif",
-    heading: "MontserratVariable, sans-serif",
+    body: "Open Sans, sans-serif",
+    heading: "Open Sans, sans-serif",
+  },
+
+  colors: {
+    primary: '#F9873C'
   },
 
   styles: {
