@@ -15,14 +15,14 @@ const menuItems: { name: string, path: string }[] = [
     name: 'About',
     path: '/about',
   },
-  {
-    name: 'Blog',
-    path: '/blog',
-  },
-  {
-    name: 'Projects',
-    path: '/projects',
-  },
+  // {
+  //   name: 'Blog',
+  //   path: '/blog',
+  // },
+  // {
+  //   name: 'Projects',
+  //   path: '/projects',
+  // },
 ]
 
 export const Menu: FC<MenuProps> = () => {
