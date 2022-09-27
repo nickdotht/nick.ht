@@ -7,14 +7,14 @@ interface MenuProps {
 }
 
 const menuItems: { name: string, path: string }[] = [
-  {
-    name: 'Home',
-    path: '/',
-  },
-  {
-    name: 'About',
-    path: '/about',
-  },
+  // {
+  //   name: 'Home',
+  //   path: '/',
+  // },
+  // {
+  //   name: 'About',
+  //   path: '/about',
+  // },
   // {
   //   name: 'Blog',
   //   path: '/blog',

@@ -60,8 +60,8 @@ export const HomeIntro: FC = () => {
         </Flex>
 
         {/* Image block */}
-        <Box display={['none', 'none', 'none', 'flex', 'flex', 'flex']}>
-          <Image src="/images/hero-image.png" width="314px" height="314px" alt="Nick Rameau" />
+        <Box display={['none', 'none', 'none', 'flex', 'flex', 'flex']} alignItems="center" justifyContent="center">
+          <Image src="/images/hero-image.png" width="230px" height="230px" alt="Nick Rameau" />
         </Box>
       </Flex>
     </Flex>
