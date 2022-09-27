@@ -17,7 +17,7 @@ export const theme = extendTheme({
   styles: {
     global: {
       body: {
-        bg: "#12181B",
+        bg: "#1e1e1e",
       },
 
       '*:focus': {
