@@ -11,13 +11,13 @@ export const theme = extendTheme({
   },
 
   colors: {
-    primary: '#F9873C'
+    primary: '#007acc'
   },
 
   styles: {
     global: {
       body: {
-        bg: "#1e1e1e",
+        bg: "#181818",
       },
 
       '*:focus': {
