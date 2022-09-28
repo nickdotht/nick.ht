@@ -14,10 +14,6 @@ export const HomeIntro: FC = () => {
         direction={['column', 'column', 'column', 'row', 'row', 'row']}
         px={['16px', '16px', '16px', '40px', '40px', '40px']}
       >
-        <Box display={['flex', 'flex', 'flex', 'none', 'none', 'none']} m="24px auto">
-          <Image src="/images/hero-image.png" width="200px" height="200px" alt="Nick Rameau" />
-        </Box>
-
         {/* Text block */}
         <Flex
           direction="column"
@@ -58,11 +54,6 @@ export const HomeIntro: FC = () => {
             </Link>
           </Flex>
         </Flex>
-
-        {/* Image block */}
-        <Box display={['none', 'none', 'none', 'flex', 'flex', 'flex']} alignItems="center" justifyContent="center">
-          <Image src="/images/hero-image.png" width="230px" height="230px" alt="Nick Rameau" />
-        </Box>
       </Flex>
     </Flex>
   )
