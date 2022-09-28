@@ -1,13 +1,13 @@
-import "@fontsource/open-sans" // sans-serif
-import "@fontsource/pt-serif" // serif
+import "@fontsource/courier-prime/400.css"
+import "@fontsource/bai-jamjuree/700.css"
 import type { AppProps } from 'next/app'
 import { ChakraProvider } from '@chakra-ui/react'
 import { extendTheme } from '@chakra-ui/react'
 
 export const theme = extendTheme({
   fonts: {
-    body: "Open Sans, sans-serif",
-    heading: "PT Serif, serif",
+    heading: '"Bai Jamjuree", sans-serif',
+    body: '"Courier Prime", monospace',
   },
 
   colors: {
