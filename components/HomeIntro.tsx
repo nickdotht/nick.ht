@@ -43,9 +43,9 @@ export const HomeIntro: FC = () => {
           </Text>
 
           <Flex marginX={['auto', 'auto', 'auto', 0, 0, 0]} mt="40px" mb={['40px', '40px', '40px', 0, 0, 0]}>
-            <Link href="https://www.linkedin.com/in/nickdotht/" mr="26px" target="_blank">
+            {/* <Link href="https://www.linkedin.com/in/nickdotht/" mr="26px" target="_blank">
               <Icon as={FiLinkedin} color="#fff" _hover={{ color: '#0C63BC' }} boxSize="20px" />
-            </Link>
+            </Link> */}
             <Link href="https://github.com/nickdotht" mr="26px" target="_blank">
               <Icon as={FiGithub} color="#fff" _hover={{ color: '#000' }} boxSize="20px" />
             </Link>
